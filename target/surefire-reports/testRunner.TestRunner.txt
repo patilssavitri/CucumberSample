@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 148.402 sec <<< FAILURE!
+Login DataDriven #2(Login)  Time elapsed: 11.4 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.LoginSteps.page_title_should_be(LoginSteps.java:45)
+	at ?.Page Title should be "Dashboard / nopCommerce administration"(file:///C:/Users/shwetha/eclipse-workspace/SeleniumCucumber/Features/Login.feature:17)
+
